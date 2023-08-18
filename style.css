@@ -1,0 +1,114 @@
+/* cas reset  */
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #666;
+}
+
+/* main section  */
+.pimg1{
+    background-image: url(./images/image6.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pimg2{
+    background-image: url(./images/image5.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./images/image4.jpg);
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.pTextBg{
+    background-color:#373636;
+    transition: 0.5s;
+    padding: 16px;
+    color: white;
+}
+.pTextBg:hover{
+    background-color:#502020;
+    transition: 0.5s;
+}
+.ptext:hover{
+    cursor: pointer;
+}
+
+/* section1 */
+.section1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color:rgb(128, 128, 128);
+    color: white;
+    align-items: center;
+}
+.section1 h3{
+    font-size: 20px;
+}
+.section1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.section2{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color:rgb(128, 128, 128);
+    color: white;
+    align-items: center;
+}
+.section2 h3{
+    font-size: 20px;
+}
+.section2 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.section3{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color:rgb(128, 128, 128);
+    color: white;
+    align-items: center;
+}
+.section3 h3{
+    font-size: 20px;
+}
+.section3 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.pimg4{
+    background-image: url(./images/image1.png);
+    min-height: 700px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
